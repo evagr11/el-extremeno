@@ -43,20 +43,17 @@ Para probarla en local, abre `index.html` en el navegador o, mejor, lanza un ser
    - Framework preset: **None**
    - Build command: *(vacío)*
    - Build output directory: `/`
-5. Pulsa **Save and Deploy**. En un minuto estará en `https://el-extremeno.pages.dev`
-   (si el nombre está cogido, Cloudflare te dará otro parecido).
+5. Pulsa **Save and Deploy**.
+
+Web publicada en: **https://el-extremeno.evagallardor.workers.dev**
 
 A partir de aquí, cada `git push` a `main` publica los cambios automáticamente.
 
 ### 3. Dominio propio (opcional)
 1. Compra el dominio (por ejemplo `elextremeno.es`) en Cloudflare o en otro registrador.
 2. En el proyecto de Pages: **Custom domains → Set up a custom domain** y sigue los pasos.
-3. Cambia la dirección `https://el-extremeno.pages.dev/` por la nueva en `index.html`
+3. Cambia la dirección `https://el-extremeno.evagallardor.workers.dev/` por la nueva en `index.html`
    (etiquetas `canonical`, `og:url`, `og:image` y el bloque `application/ld+json`).
-
-## Si el nombre del proyecto no es `el-extremeno`
-Cambia la URL `https://el-extremeno.pages.dev/` en `index.html` (mismas etiquetas que arriba)
-para que la vista previa al compartir el enlace por WhatsApp muestre bien la imagen.
 
 ## Pendiente
 - Texto de "Quién soy": revisarlo con Alfonso.
