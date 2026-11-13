@@ -1,3 +1,7 @@
+/**
+ * Interacción de la web de El Extremeño: menú móvil, sección activa en el menú, comparador antes y después, visor de fotos, vídeo que se reproduce al verlo y botón para copiar el teléfono.
+ * @file
+ */
 /* ==========================================================
    El Extremeño · Mantenimiento y Jardines
    Interacción de la página
@@ -8,6 +12,10 @@ const header = document.querySelector('.top');
 const menuButton = document.getElementById('menu-btn');
 const navLinks = [...document.querySelectorAll('.nav a')];
 
+/**
+ * Abre o cierra el menú móvil y actualiza su accesibilidad (`aria-expanded` y la etiqueta del botón).
+ * @param {boolean} open si se abre.
+ */
 function setMenu(open) {
   header.classList.toggle('open', open);
   menuButton.setAttribute('aria-expanded', open);
@@ -125,6 +133,9 @@ if (reel && 'IntersectionObserver' in window && !reducedMotion) {
 /* ---------- Copiar teléfono ---------- */
 const copyMessage = document.getElementById('copy-msg');
 
+/**
+ * Selecciona el teléfono en la página cuando el navegador no deja copiarlo automáticamente.
+ */
 function selectPhone() {
   const selection = getSelection();
   const range = document.createRange();
