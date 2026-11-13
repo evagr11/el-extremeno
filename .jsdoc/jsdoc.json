@@ -1,0 +1,17 @@
+{
+  "source": {
+    "include": ["js"],
+    "includePattern": "\\.js$"
+  },
+  "plugins": ["plugins/markdown"],
+  "opts": {
+    "destination": "docs",
+    "recurse": true,
+    "encoding": "utf8",
+    "readme": ".jsdoc/inicio.md"
+  },
+  "templates": {
+    "default": { "includeDate": false, "outputSourceFiles": true },
+    "cleverLinks": true
+  }
+}

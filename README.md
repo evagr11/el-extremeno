@@ -4,6 +4,8 @@
 
 <div align="center">
   <a href="https://github.com/evagr11/el-extremeno" target="_blank"><img src="https://img.shields.io/badge/Ver_Código-16261C?style=for-the-badge&logo=github&logoColor=white" alt="Ver Código"></a>
+  <a href="https://evagr11.github.io/el-extremeno/" target="_blank"><img src="https://img.shields.io/badge/Documentación_(JSDoc)-16261C?style=for-the-badge&logo=javascript&logoColor=white" alt="Documentación del código"></a>
+  <a href="docs/Documentacion_el-extremeno.pdf" target="_blank"><img src="https://img.shields.io/badge/Documentación-16261C?style=for-the-badge&logo=latex&logoColor=white" alt="Documentación"></a>
   <a href="https://el-extremeno.evagallardor.workers.dev/" target="_blank"><img src="https://img.shields.io/badge/Ver_Web-E0A530?style=for-the-badge&logo=googlechrome&logoColor=black" alt="Ver Web"></a>
 </div>
 
