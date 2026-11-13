@@ -11,7 +11,7 @@
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=18&duration=3500&pause=800&color=6C9A2E&center=true&vCenter=true&width=600&lines=Proyecto+real+para+un+negocio+local%3BComparador+antes%2Fdespu%C3%A9s+interactivo%3BMobile-first+y+modo+oscuro%3BHTML%2C+CSS+y+JS+sin+dependencias" alt="Typing SVG" /></a>
 </div>
 
-# 🚀 Sobre el Proyecto
+# Sobre el Proyecto
 
 **El Extremeño · Mantenimiento y Jardines** es la web de presentación del negocio de **Alfonso Martín Blanco**, que hace jardinería, desbroces, podas, riego y todo tipo de reparaciones del hogar en **Navalvillar de Pela (Badajoz)**, los pueblos de alrededor y Madrid.
 
@@ -22,17 +22,17 @@ El objetivo era sencillo: que quien llegue desde Instagram o una búsqueda vea *
   <p><em>Portada con el comparador antes/después y los botones de contacto</em></p>
 </div>
 
-✨ **Características principales:**
+**Características principales:**
 
-*   ↔️ **Comparador antes/después:** Se arrastra la línea sobre la foto para ver el cambio. Funciona con ratón, dedo y teclado, porque por debajo es un `input type="range"`.
-*   🖼️ **Galería con visor:** Las miniaturas de cada trabajo se abren en grande en un visor hecho con `<dialog>`, que se cierra con la X, con Escape o pulsando fuera.
-*   🎬 **Vídeo del proceso:** Reel de la finca que solo se descarga cuando se le da al play (`preload="none"`), para no gastar datos de quien no lo vea.
-*   📞 **Contacto directo:** Botones de llamar y WhatsApp, teléfono fijo en la cabecera y botón para **copiar el número**.
-*   📱 **Mobile-first:** Pensada primero para el móvil, que es desde donde llega la mayoría de la gente, con menú desplegable accesible (`aria-expanded`).
-*   🌙 **Modo oscuro automático:** Se adapta al tema del dispositivo con `prefers-color-scheme`.
-*   🔎 **SEO local:** Datos estructurados `LocalBusiness` (JSON-LD), etiquetas Open Graph con imagen para compartir por WhatsApp y redes, y `canonical`.
-*   ⚡ **Ligera:** Sin frameworks ni librerías, imágenes con `loading="lazy"` y caché de 30 días para imágenes y vídeo en Cloudflare.
-*   🔒 **Privacidad:** En las fotos del curso, las caras de las alumnas aparecen difuminadas.
+*   **Comparador antes/después:** Se arrastra la línea sobre la foto para ver el cambio. Funciona con ratón, dedo y teclado, porque por debajo es un `input type="range"`.
+*   **Galería con visor:** Las miniaturas de cada trabajo se abren en grande en un visor hecho con `<dialog>`, que se cierra con la X, con Escape o pulsando fuera.
+*   **Vídeo del proceso:** Reel de la finca que solo se descarga cuando se le da al play (`preload="none"`), para no gastar datos de quien no lo vea.
+*   **Contacto directo:** Botones de llamar y WhatsApp, teléfono fijo en la cabecera y botón para **copiar el número**.
+*   **Mobile-first:** Pensada primero para el móvil, que es desde donde llega la mayoría de la gente, con menú desplegable accesible (`aria-expanded`).
+*   **Modo oscuro automático:** Se adapta al tema del dispositivo con `prefers-color-scheme`.
+*   **SEO local:** Datos estructurados `LocalBusiness` (JSON-LD), etiquetas Open Graph con imagen para compartir por WhatsApp y redes, y `canonical`.
+*   **Ligera:** Sin frameworks ni librerías, imágenes con `loading="lazy"` y caché de 30 días para imágenes y vídeo en Cloudflare.
+*   **Privacidad:** En las fotos del curso, las caras de las alumnas aparecen difuminadas.
 
 ### Galería de Secciones
 
@@ -44,7 +44,7 @@ El objetivo era sencillo: que quien llegue desde Instagram o una búsqueda vea *
 | <img src=".github/readme/servicios.jpg" alt="Tarjetas de servicios de piscinas, fontanería y electricidad" width="100%"/> | <img src=".github/readme/movil.jpg" alt="Portada de la web vista en un móvil" width="45%"/> |
 | *Piscinas, fontanería, electricidad, albañilería…* | *Botón de llamada y menú siempre a mano.* |
 
-# 🧠 Contexto del Proyecto
+# Contexto del Proyecto
 
 Es un **proyecto real** para un negocio local de mi zona. Alfonso trabajaba solo con Instagram ([@mantenimientos_y_jardines_](https://www.instagram.com/mantenimientos_y_jardines_/)) y necesitaba una web a la que mandar a los clientes, con sus trabajos ordenados y una forma rápida de contactar.
 
@@ -63,7 +63,7 @@ Me encargué de todo el proceso: organizar el contenido con él (la jardinería 
 
 </div>
 
-# 🛠️ Stack Tecnológico
+# Stack Tecnológico
 
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
@@ -87,7 +87,7 @@ Me encargué de todo el proceso: organizar el contenido con él (la jardinería 
 
 </div>
 
-# 📂 Estructura del Proyecto
+# Estructura del Proyecto
 
 ```bash
 el-extremeno/
@@ -105,7 +105,7 @@ el-extremeno/
 └── README.md
 ```
 
-# 🚀 Cómo Utilizar el Proyecto
+# Cómo Utilizar el Proyecto
 
 ### 1. Verla online
 
@@ -137,7 +137,7 @@ La web está conectada a **Cloudflare Pages**: cada `git push` a `main` la vuelv
 - **Fotos nuevas:** se añaden en `img/` y se enlazan en `index.html`, con `loading="lazy"` y un `alt` que describa la foto.
 - **Dominio propio:** si se compra uno (por ejemplo `elextremeno.es`), se añade en Cloudflare en *Custom domains* y hay que cambiar la dirección actual en `index.html`: etiquetas `canonical`, `og:url`, `og:image` y el bloque `application/ld+json`.
 
-### 📌 Pendiente
+### Pendiente
 
 - [ ] Logo en buena calidad: sustituir `img/logo.png` y regenerar `favicon-32.png` y `apple-touch-icon.png`.
 
